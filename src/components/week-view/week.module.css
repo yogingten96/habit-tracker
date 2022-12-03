@@ -1,0 +1,15 @@
+.flexDays{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.singleDay{
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+}
+
+.prev{
+    border: 1px solid black;
+}

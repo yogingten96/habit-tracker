@@ -1,0 +1,13 @@
+.habitCard{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: space-between;
+}
+
+.mainC{
+    border: 1px solid red;
+    height: 30px;
+    width: 30%;
+}
