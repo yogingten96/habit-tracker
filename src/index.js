@@ -13,12 +13,12 @@ import { store } from "./redux/store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    {/* redux used for state management */}
+    {/* provinding store to the project */}
     <Provider store={store}>
-      {/* <PersistGate loading={null} persistor={persistor}> */}
-        <Router>
-          <App />
-        </Router>
-      {/* </PersistGate> */}
+      <Router>
+        <App />
+      </Router>
     </Provider>
   </React.StrictMode>
 );
