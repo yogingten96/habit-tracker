@@ -1,0 +1,24 @@
+.weekDayBox{
+    border: 1px solid #484848;
+    padding: 15px;
+    color: white;
+    background-color: #484848;
+    border-radius: 5px;
+}
+
+.greenCheck{
+    color: #19cc37;
+}
+
+.redCheck{
+    color: red;
+}
+
+.checkNone{
+    color: yellow;
+}
+
+/* global css */
+.cursorPointer{
+    cursor: pointer;
+}

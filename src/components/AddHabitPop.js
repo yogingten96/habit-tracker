@@ -28,14 +28,16 @@ const AddHabitPop = (props) => {
   const handleAddHabit = () => {
     dispatch(addHabit(addition));
     dispatch(openDiag(false));
+    setAddition("")
   };
 
   const handleClose = () => {
     dispatch(openDiag(false));
+    setAddition("")
   };
   return (
     <>
-      <Dialog open={open} onClose={handleClose}>
+      <Dialog open={open} onClose={handleClose} fullWidth  >
         <DialogTitle>Add Habit</DialogTitle>
         <DialogContent>
           <TextField

@@ -5,4 +5,14 @@
     align-items: center;
     padding-left: 25px;
     padding-right: 25px;
+    color: white;
+    background: linear-gradient(88deg, #0e0e0e, #1a3e81f5);
+
+}
+
+/* global css */
+
+.timeFontStyle{
+    font-size: 22px;
+    font-weight: 500;
 }

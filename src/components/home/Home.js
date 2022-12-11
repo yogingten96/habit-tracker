@@ -9,17 +9,14 @@ const Home = () => {
   console.log("habit in home", habit);
   return (
     <>
-      <div className="habitCard">
-        {/* <div>
-          <p> Single Habit</p>
-        </div>
-        <div>
-          <Button variant="contained">Week View</Button>
-          <Button>Delete</Button>
-        </div> */}
+   
+
+      <div className="container" >
+      <HabitList habit={habit} />
+
       </div>
 
-      <HabitList habit={habit} />
+      
     </>
   );
 };
