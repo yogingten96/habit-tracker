@@ -1,3 +1,6 @@
+This a habit tracker app built using react, react-router and react-redux.We can add habits and delete them.For each habit we ge week view where we can change status of habit current day or previous days.Insatll dependencies by putting the command npm install to run this project.This project is also hosted on https://warm-bublanina-8346aa.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
